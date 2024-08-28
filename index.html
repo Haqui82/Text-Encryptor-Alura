@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Text Encryptor</title>
+</head>
+
+<body>
+    <header class="logo">
+        <img src="./assets/Logo.png" alt="Logo de Alura">        
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea class="text-area" id="text-area" placeholder="Insert here the text to be encrypted" cols="30" rows="10"></textarea>
+            
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar();">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+
+            <div>
+                <h6 class="informacion">* Recibe solo letras minúsculas y sin acentos</h6>
+            </div>            
+        </section>
+            
+        <section class="main-section2">
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">        
+        <h6 class="footer-creditos">Desarrollado por haqui82 (mr.haqui82@gmail.com)</h6>
+    </footer>
+<script src="/script.js" ></script>
+</body>
+</html>
